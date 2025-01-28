@@ -5,6 +5,37 @@
     justify-content: space-evenly;
 }
 
-.card-body h3 {
-
+.card {
+    margin-bottom: 2%;
+    text-decoration: none;
 }
+
+.présentation {
+    border: solid 0.1em #8cb1d2;
+    margin: 3em;
+    border-radius: .3em;
+}
+
+.présentation h4 {
+    text-align: center;
+    margin-top: .5em;
+    text-decoration: underline #52809c;
+}
+
+.en-tête img {
+    opacity: 60%;
+    width: 100%;
+    height: 20em;
+    margin-left: 30em;
+}
+
+.en-tête {
+    background-color: #c1d5dc;
+}
+
+#profil {
+    margin-top: 8%;
+    position: absolute;
+    margin-left: 1%;
+}
+
