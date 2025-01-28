@@ -1,5 +1,26 @@
+.card1 img {
+    width: 15em;
+}
+
 .card1 {
-    width: 5em;
+    width: 15em;
+    background-color: aliceblue;
+}
+
+.card2 {
+    width: 15em;
+    background-color: aliceblue;
+}
+
+.card3 {
+    width: 15em;
+    background-color: aliceblue;
+}
+
+.conteneur-menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
 }
 
 h1 {
