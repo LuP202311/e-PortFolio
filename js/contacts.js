@@ -8,8 +8,8 @@ textes.forEach(texte => texte.addEventListener("click", (evt) => {
 }))
 
 textes.forEach(texte => texte.addEventListener("mouseover",()=>{
-    texte.style.cursor="url(hand.cur), pointer"
+    texte.style.cursor="copy"
     texte.addEventListener("mouseout", () =>{
-        texte.style.cursor="pointer"
+        texte.style.cursor="default"
     })
 }))
