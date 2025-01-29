@@ -8,11 +8,12 @@
 .card {
     margin-bottom: 2%;
     text-decoration: none;
+    background-color: aliceblue;
 }
 
 .présentation {
     border: solid 0.1em #8cb1d2;
-    margin: 3em;
+    margin: 1em;
     border-radius: .3em;
 }
 
@@ -24,18 +25,36 @@
 
 .en-tête img {
     opacity: 60%;
-    width: 100%;
+    width: 60%;
     height: 20em;
-    margin-left: 30em;
+    margin-left: 30.3em;
 }
 
 .en-tête {
     background-color: #c1d5dc;
 }
 
-#profil {
+#titre {
     margin-top: 8%;
     position: absolute;
     margin-left: 1%;
 }
 
+.profil {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.contact {
+    margin: 1em;
+    border: solid 0.1em #8cb1d2;
+    border-radius: .3em;
+}
+
+.contact h4 {
+    text-align: center;
+    margin-top: .5em;
+    text-decoration: underline #52809c;
+
+}
