@@ -1,8 +1,10 @@
 export const projets = [{
-    titre: "",
-    image: ""
+    titre: "Refonte de site",
+    image: "",
+    description: "Projet de refonte du site francedepression.fr"
 },{
-    titre: "",
-    image: ""
+    titre: "Gomoku",
+    image: "",
+    description: "Projet reproduction du jeu 'Gomoku' en Java"
 }
 ]
