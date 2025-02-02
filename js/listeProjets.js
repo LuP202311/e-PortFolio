@@ -1,4 +1,4 @@
-import {projets} from "./projets";
+import {projets} from "./projets.js";
 
 /**
  *
