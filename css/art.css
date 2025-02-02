@@ -1,0 +1,15 @@
+
+
+.galerie {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    max-width: 900px;
+    gap: .5em;
+    margin-left: 10em;
+}
+
+.galerie img {
+    width: 100%;
+    border: #8cb1d2 solid .1em;
+}

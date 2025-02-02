@@ -1,9 +1,11 @@
 const cartes = document.querySelectorAll(".card")
 
     cartes.forEach(carte => carte.addEventListener("mouseover", () => {
-        carte.style.width = "25em"
+        carte.style.transition = "transform 0.4s ease-in-out"
+        carte.style.transform = "scale(1.1)"
         carte.addEventListener("mouseout", () => {
-            carte.style.width = "18em"
+            carte.style.transition = "transform 0.4s ease-in-out"
+            carte.style.transform = "scale(1)"
         })
     })
     )
