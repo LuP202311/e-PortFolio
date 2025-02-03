@@ -1,3 +1,6 @@
+@media (min-width: 1046px){
+
+}
 
 .conteneur-menu {
     display: flex;
@@ -46,6 +49,10 @@
     z-index: 1;
 }
 
+#titreImage {
+    margin-left: 45em;
+}
+
 #image {
     border-radius: 100%;
     border: #1D3956 .1em solid;
@@ -53,16 +60,15 @@
     bottom:-5em;
     width: 15em;
     height: 15em;
-    margin-left: 50em;
     z-index: 1;
 }
 
 #sparkle {
     position: absolute;
     width: 5em;
-    margin-left: 45em;
     z-index: 2;
     bottom: 2em;
+    left: 40em;
 }
 
 .profil {

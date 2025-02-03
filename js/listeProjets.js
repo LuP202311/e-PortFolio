@@ -22,7 +22,15 @@ function ajoutProjet(projet){
     const elemTitre = creerTexte('h3', projet.titre)
     const elemDescr = creerTexte('p', projet.description)
     elemProj.append(elemTitre, elemDescr)
+
+    elemProj.style.border = "1px solid black"
+    elemProj.style.padding = "1em"
+    elemProj.style.margin = "1em"
+    elemProj.style.borderRadius = "1em"
+
     return elemProj
+
+
 }
 
 const sectionProjets = document.querySelector(".sectionProjets")
