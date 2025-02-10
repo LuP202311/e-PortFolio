@@ -1,11 +1,15 @@
 const textes = document.querySelectorAll(".contact > p")
 
+/* Copier */
+
 textes.forEach(texte => texte.addEventListener("click", (evt) => {
     evt.preventDefault()
     navigator.clipboard.writeText(texte.innerText).then(()=>{
         alert("Texte copié")
     })
 }))
+
+/* Changement de curseur */
 
 textes.forEach(texte => texte.addEventListener("mouseover",()=>{
     texte.style.cursor="copy"

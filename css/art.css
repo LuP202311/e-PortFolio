@@ -1,15 +1,31 @@
+@media (max-width: 530px){
+    .galerie {
+        flex-direction: column;
+    }
 
-
-.galerie {
-    width: 100%;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    max-width: 900px;
-    gap: .5em;
-    margin-left: 10em;
+    .image {
+        flex: 1 1 100%;
+    }
 }
 
-.galerie img {
+.galerie {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.image {
+    border: solid 1px grey;
+    padding: 0.5%;
+    flex: 1 1 calc(50% - 10px);
+    box-sizing: border-box;
+}
+
+.desc {
+    text-align: center;
+    margin-top: .5em;
+}
+
+.image img {
     width: 100%;
-    border: #8cb1d2 solid .1em;
+    height: auto;
 }

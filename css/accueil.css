@@ -10,9 +10,9 @@
 }
 
 .card {
-    margin-bottom: 2%;
-    text-decoration: none;
     background-color: aliceblue;
+    width: 70%;
+    text-decoration: none;
 }
 
 .présentation {
@@ -88,4 +88,20 @@
     margin-top: .5em;
     text-decoration: underline #52809c;
 
+}
+
+.projetPerso {
+    text-align: center;
+}
+
+.projetPerso button {
+    border-radius: 30px;
+    padding: 1em;
+    background-color: white;
+    border: #9bb8da solid 2px;
+}
+
+.projetPerso a {
+    text-decoration: none;
+    color: black;
 }
