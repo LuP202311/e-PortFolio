@@ -1,0 +1,39 @@
+#jeu {
+    width: 95%;
+    height: 30em;
+    margin: 2em;
+    background-color: #bcd9e1;
+}
+
+#obstacle {
+    width: 2em;
+    height: 3em;
+    background-color: grey;
+    position: relative;
+    left: 69.9em;
+    top:27em;
+    animation: obstacle 2s linear infinite;
+}
+
+@keyframes obstacle {
+    0%{left: 69.9em}
+    100%{left:0}
+}
+
+#personnage img {
+    position: relative;
+    width: 100px;
+    top:18em;
+}
+
+.animation {
+    animation: 500ms saut ease-out;
+}
+
+
+@keyframes saut {
+    0%{top:18em;}
+    30%{top:14em;}
+    70%{top:14em;}
+    100%{top:10em;}
+}
