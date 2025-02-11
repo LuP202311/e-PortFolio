@@ -27,13 +27,12 @@
 }
 
 .animation {
-    animation: 500ms saut ease-out;
+    animation: 500ms saut ease-in-out;
 }
 
 
 @keyframes saut {
-    0%{top:18em;}
-    30%{top:14em;}
-    70%{top:14em;}
-    100%{top:10em;}
+    0%{transform:translateY(0);}
+    50%{transform:translateY(-100px);}
+    100%{transform:translateY(0);}
 }
