@@ -1,4 +1,4 @@
-const textes = document.querySelectorAll(".contact > p")
+const textes = document.querySelectorAll(".objets-contact > p")
 
 /* Copier */
 
