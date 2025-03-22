@@ -1,3 +1,3 @@
 ## Projet personnel : e-Portfolio
 
-auteur : LuP202311
+Auteur : LuP202311
