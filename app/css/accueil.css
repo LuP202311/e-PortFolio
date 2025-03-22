@@ -1,7 +1,3 @@
-@media (min-width: 1046px){
-
-}
-
 .conteneur-menu {
     display: flex;
     flex-wrap: wrap;
@@ -19,7 +15,25 @@
     border: solid 0.1em #8cb1d2;
     margin: 1em;
     border-radius: .3em;
-    width: 50em;
+    width: 70%;
+}
+
+@media (max-width: 1063px){
+    .présentation {
+        width: 50%;
+    }
+    .contact {
+        width: 30%;
+    }
+}
+
+@media (max-width: 643px){
+    .présentation {
+        width: 100%;
+    }
+    .contact {
+        width:auto;
+    }
 }
 
 .présentation p {
@@ -43,13 +57,15 @@
 
 #header {
     display: flex;
-    flex-direction: row;
     width: 100%;
+    justify-content: space-between;
+    align-content: center;
 }
 
-
-#titreImage {
-
+#header-image {
+    margin-left: 2em;
+    width: 20%;
+    height: 10%;
 }
 
 #image {
@@ -91,8 +107,8 @@
 
 .objets-contact img{
     padding-left: 0.5em;
-    width: 2.5em;
-    height: 2em;
+    width: 1.5em;
+    height: 1em;
 }
 
 .objets-contact {
