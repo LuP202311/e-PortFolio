@@ -93,6 +93,18 @@
     }
 }
 
+@media (max-width: 433px) {
+    #image {
+        width: 12em;
+        height: 12em;
+    }
+
+    #imgPortfolio {
+        height: 12em;
+    }
+
+}
+
 .profil {
     display: flex;
     flex-wrap: wrap;
