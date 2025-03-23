@@ -55,6 +55,14 @@
     position: absolute;
 }
 
+#titre {
+    z-index: 1;
+}
+
+#titre h1 {
+    font-family: "Bitter", sans-serif;
+}
+
 #header {
     display: flex;
     width: 100%;
@@ -62,28 +70,27 @@
     align-content: center;
 }
 
-#header-image {
-    margin-left: 2em;
-    width: 20%;
-    height: 10%;
-}
 
 #image {
     border-radius: 100%;
     border: #1D3956 .1em solid;
     position: relative;
-    bottom:-5em;
     width: 15em;
     height: 15em;
     z-index: 1;
 }
 
 #sparkle {
-    position: absolute;
+    position: relative;
     width: 5em;
     z-index: 2;
     bottom: 2em;
-    left: 40em;
+}
+
+@media (max-width: 715px) {
+    #sparkle {
+        display: none;
+    }
 }
 
 .profil {
